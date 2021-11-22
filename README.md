@@ -4,4 +4,4 @@ The aim of this application is to propose an interactive visualization of the im
 The time series are downloaded from [FRED](https://fred.stlouisfed.org/). The data cleaning and the preparation of the model are performed in the file ``data_prep_BQ.R``. The file ``app.R`` is the code of the application. 
 
 
-The application can be launched directly on the web [here](https://venance-riblier.shinyapps.io/bq_app/) as it is hosted on https://www.shinyapps.io/. It also can be launched directly from **R**, by using the command ``shiny::runGitHub("Long-Run-Restrictions-Shiny/Long Run Restrictions Shiny", "venance-riblier")``.
+The application can be launched directly on the web [here](https://venance-riblier.shinyapps.io/bq_app/) as it is hosted on https://www.shinyapps.io/. It also can be launched directly from **R**, by using the command ``shiny::runGitHub("Long-Run-Restrictions-Shiny", "venance-riblier", ref = "main")``.
